@@ -10,7 +10,7 @@ jobs:
     name: Build ${{ matrix.arch }}-${{ matrix.sdk }}
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         arch:
           - aarch64_cortex-a53
