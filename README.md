@@ -159,7 +159,7 @@
 
 ## 自定义魔改前端（可选）
 
-  *1. [更改文件](https://github.com/sbwml/luci-app-alist/blob/master/alist/Makefile)*
+  *1. [更改文件openwrt-sdk-22.03.5-x86-64_gcc-11.2.0_musl.Linux-x86_64/package/alist/alist/Makefile](https://github.com/sbwml/luci-app-alist/blob/master/alist/Makefile)*
   ```shell
   #
   # Copyright (C) 2015-2016 OpenWrt.org
