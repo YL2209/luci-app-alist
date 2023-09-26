@@ -161,6 +161,12 @@
 
   *1. [更改文件openwrt-sdk-22.03.5-x86-64_gcc-11.2.0_musl.Linux-x86_64/package/alist/alist/Makefile](https://github.com/sbwml/luci-app-alist/blob/master/alist/Makefile)*
   ```shell
+  cd ..
+  mv alist-web/alist-web-3.28.0.tar.gz openwrt-sdk-22.03.5-x86-64_gcc-11.2.0_musl.Linux-x86_64/dl/
+  cd openwrt-sdk-22.03.5-x86-64_gcc-11.2.0_musl.Linux-x86_64
+  ```
+
+  ```shell
   #
   # Copyright (C) 2015-2016 OpenWrt.org
   #
