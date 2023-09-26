@@ -41,10 +41,12 @@
         
     - 尾部
         ```html
-        <script src="/src/main.tsx" type="module"></script>
+        <!--引入头部信息-->
         <script async src="https://cdn.jsdelivr.net/gh/XXKDB/img_cdn/time/diytitle.js"></script>
+        <!--引入动画-->
         <script defer src="https://cdn.jsdelivr.net/gh/graingert/wow@1.3.0/dist/wow.min.js"></script>
-        <script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script>
+        <script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script>\
+        <!--引入看板娘-->
         <script defer data-pjax src="https://cdn.jsdelivr.net/gh/YL2209/live2d-widget-mini@latest/autoload.js"></script>
         ```
 
