@@ -106,13 +106,14 @@
 ## 打包编译好的前端/diat
   - 输入命令
       ```shell
-      tar -zcvf alist-web-3.28.0.tar.gz diat
+      tar -zcvf alist-web-3.28.0.tar.gz dist
       ```
 --------------
 
 # 下载openwrt SDK并解压
   - 输入命令
       ```shell
+      cd ..
       wget https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/openwrt-sdk-22.03.5-x86-64_gcc-11.2.0_musl.Linux-x86_64.tar.xz
 
       tar xvJf openwrt-sdk-22.03.5-x86-64_gcc-11.2.0_musl.Linux-x86_64.tar.xz
