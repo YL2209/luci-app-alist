@@ -1,0 +1,205 @@
+/* 文字超长自动换行 */
+.name-box .name {
+	white-space: unset !important;
+	overflow: unset !important;
+}
+
+/* 缩略图图片变大 代码中的160px 自己改 现在是注释状态若需要自行解除注释 */
+/*.obj-box > div {
+grid-template-columns: repeat(auto-fill, minmax(160px, 1fr))
+}
+.obj-box > div .item-thumbnail{
+  height: 100px;
+}*/
+
+
+/*白天背景图*/
+.hope-ui-light {
+    background-image: url("http://ax7ij0mjxl.naokuo.top/d/Alist/%E5%9B%BE%E7%89%87/%E5%8A%A8%E6%BC%AB/88426823_p0.png") !important;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position-x:center;
+}
+/*夜间背景图*/
+.hope-ui-dark {
+    background-image: url(//dogefs.s3.ladydaily.com/~/source/wallhaven/full/e7/wallhaven-e71v2l.jpg) !important;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position-x:center;
+}
+/*主列表白天模式透明*/
+.obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-igScBhH-css {
+    backdrop-filter: blur(8px);
+    background-color: hsl(209.77deg 51.67% 69.35% / 17%)!important;
+}
+/*主列表夜间模式透明*/
+ .obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-iigjoxS-css {
+    backdrop-filter: blur(8px);
+    background-color:hsl(29.77deg 34.59% 15.32% / 17%)!important;
+}
+
+/*readme白天模式透明*/
+.hope-c-PJLV.hope-c-PJLV-ikSuVsl-css {
+    backdrop-filter: blur(8px);
+    background-color: hsl(209.77deg 51.67% 69.35% / 17%)!important;
+}
+/*readme夜间模式透明*/
+.hope-c-PJLV.hope-c-PJLV-iiuDLME-css {
+    backdrop-filter: blur(8px);
+    background-color:hsl(29.77deg 34.59% 15.32% / 17%)!important;
+}
+/*设置夜间模式透明*/
+.hope-ui-dark .hope-c-hOYTCS {
+    backdrop-filter: blur(8px);
+    background-color: rgb(0 0 0 / 35%)!important;
+}
+/*设置白天模式透明*/
+.hope-ui-light .hope-c-hOYTCS {
+    backdrop-filter: blur(8px);
+    background-color: rgb(255 255 255 / 50%)!important;
+}
+
+/*看板娘白天模式透明*/
+.hope-ui-light #waifu-tips {
+  background-color: #ffffff6e !important;
+  border: 1px solid rgb(85 251 234 / 62%) !important;
+}
+/*看板娘夜间模式透明*/
+.hope-ui-dark  #waifu-tips {
+    background-color: rgba(0, 0, 0, .5);
+    border: 1px solid rgb(85 251 234 / 62%) !important;
+  }
+ /* #waifu-tips span {
+    color: rgb(185, 185, 185)
+  }*/
+
+/*图片圆角*/
+.markdown-body img {
+    border-radius: var(--hope-radii-xl);
+}
+
+/*视频圆角*/
+.markdown-body iframe, .markdown-body th, .markdown-body td {
+    border-radius: var(--hope-radii-xl);
+}
+
+/* 全局默认鼠标指针 */
+body,
+html{
+  cursor: url('https://cdn.jsdelivr.net/gh/XXKDB/img_cdn/cursor/normal.cur'),auto !important;
+}
+/* 悬停图片时的鼠标指针 */
+img{
+  cursor: url('https://cdn.jsdelivr.net/gh/XXKDB/img_cdn/cursor/No_Disponible.cur'),auto !important;
+}
+/* 选择链接标签时的鼠标指针 */
+a:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/XXKDB/img_cdn/cursor/ayuda.cur'),auto;
+}
+/* 选中输入框时的鼠标指针 */
+input:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/XXKDB/img_cdn/cursor/texto.cur'),auto;
+}
+/* 悬停按钮时的鼠标指针 */
+button:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/XXKDB/img_cdn/cursor/ayuda.cur'),auto;
+}
+/* 悬停列表标签时的鼠标指针 */
+i:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/XXKDB/img_cdn/cursor/ayuda.cur'),auto;
+}
+/* 悬停页脚链接标签（例如页脚徽标）时的鼠标指针 */
+#footer-wrap a:hover{
+      cursor: url('https://cdn.jsdelivr.net/gh/XXKDB/img_cdn/cursor/ayuda.cur'),auto;
+}
+/* 悬停页码时的鼠标指针 */
+#pagination .page-number:hover{
+      cursor: url('https://cdn.jsdelivr.net/gh/XXKDB/img_cdn/cursor/ayuda.cur'),auto;
+}
+/* 悬停菜单栏时的鼠标指针 */
+#nav .site-page:hover{
+      cursor: url('https://cdn.jsdelivr.net/gh/XXKDB/img_cdn/cursor/ayuda.cur'),auto;
+}
+
+  /* 禁止复制 */
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+/* 代码允许复制 */
+.markdown pre{
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+}
+
+
+
+/*顶部右上角切换按钮透明*/
+.hope-ui-light .hope-c-ivMHWx-hZistB-cv.hope-icon-button {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.3)!important;
+}
+.hope-ui-dark .hope-c-ivMHWx-hZistB-cv.hope-icon-button {
+    backdrop-filter: blur(8px);
+    background-color:rgb(0 0 0 / 10%)!important;
+}
+.hope-ui-light .hope-c-zbPwS {
+    backdrop-filter: blur(8px);
+    background-color: #ffffff5c;
+}
+.hope-ui-dark .hope-c-zbPwS {
+    backdrop-filter: blur(8px);
+    background-color: #1c1c1c5c;
+}
+
+/*右下角侧边栏按钮透明 第一个是白天 第二个是夜间*/
+.hope-ui-light .hope-c-PJLV-ijgzmFG-css {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.5)!important;
+}
+.hope-ui-dark .hope-c-PJLV-ijgzmFG-css {
+    backdrop-filter: blur(8px);
+    background-color:rgb(0 0 0 / 20%)!important;
+}
+
+/*白天模式代码块透明*/
+.hope-ui-light .markdown-body pre {
+    backdrop-filter: blur(8px);
+    border-radius: var(--hope-radii-xl);
+    background-color: hsl(209.77deg 51.67% 69.35% / 17%)!important;
+}
+/*夜间模式代码块透明*/
+.hope-ui-dark .markdown-body pre {
+    border-radius: var(--hope-radii-xl);
+    background-color: hsl(0deg 0% 0% / 17%)!important;
+}
+
+
+/*全局字体*/
+ * {
+    font-family:LXGW WenKai
+}
+* {
+    font-weight:bold
+}
+body {
+    font-family: LXGW WenKai;
+}
+
+
+/*音乐播放器进一步进行隐藏*/
+/* 
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+    left: -66px!important;
+}
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+    left: 0!important;
+}
+
+*/
