@@ -24,8 +24,8 @@
   ###### 
   -    [将diy.css文件](https://github.com/YL2209/luci-app-alist-customized/blob/master/diy.css)——>[放入/alist-web/public/static](https://github.com/alist-org/alist-web/tree/main/public/static)
 
-    cd alist-web
-    git archive --remote=https://github.com/YL2209/luci-app-alist-customized.git --output=diy.css master diy.css /public/static
+    git clone https://github.com/YL2209/luci-app-alist-customized.git
+    mv luci-app-alist-customized/diy.css alist-web/public/static
 
 
   - 引入外部文件:[alist-web/index.html](https://github.com/alist-org/alist-web/blob/main/index.html)
