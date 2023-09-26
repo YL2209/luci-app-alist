@@ -222,7 +222,8 @@
 
   define Build/Prepare
     $(call Build/Prepare/Default)
-    mv /alist-web/$(PKG_NAME)-web-$(PKG_WEB_VERSION).tar.gz $(DL_DIR)/
+
+    mv alist-web/$(PKG_NAME)-web-$(PKG_WEB_VERSION).tar.gz $(DL_DIR)/
     $(TAR) --strip-components=1 -C $(PKG_BUILD_DIR)/public/dist -xzf $(DL_DIR)/$(PKG_NAME)-web-$(PKG_WEB_VERSION).tar.gz
     $(CP) ./files/assets/. $(PKG_BUILD_DIR)/public/dist/assets/
   endef
